@@ -36,13 +36,12 @@ const getUser = async (id) => {
 };
 
 
-const register = async (email, password, name, phone_number, username) => {
+const register = async (email, password, name, username) => {
   try {
     const requestData = {
       email,
       password,
       name,
-      phone_number,
       username
     };
 
